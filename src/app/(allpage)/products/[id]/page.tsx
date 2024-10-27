@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-function ProductManage({params}:any){
+function ProductManage({params}: { params: { id: string } }){
 
     if(params.id == "apple"){
         return(

@@ -2,7 +2,9 @@
 
 import React, { useState } from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope , faMagnifyingGlass, faPhone, faCartShopping, faBars, faUser} from '@fortawesome/free-solid-svg-icons'
+import {  faMagnifyingGlass, faPhone, faCartShopping, faBars, faUser} from '@fortawesome/free-solid-svg-icons'
+
+// faEnvelope ,
 
 const Nave=()=>{
     const [showMenu, setShowMenu] = useState<boolean>(false);

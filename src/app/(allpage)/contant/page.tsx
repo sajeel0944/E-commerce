@@ -36,17 +36,13 @@ const Contact=()=>{
       const handleSubmit1 = (e: React.FormEvent) => {
         e.preventDefault();
         
-       const formData = {
-          name,
-          address,
-          city,
-          email,
-          number,
-        };
-
-       setTimeout(() => {
-        
-       }, 6000);
+    //    const formData = {
+    //       name,
+    //       address,
+    //       city,
+    //       email,
+    //       number,
+    //     };
 };
 
 

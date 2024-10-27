@@ -9,7 +9,7 @@ const MyForm = () => {
 
     const [inputValue, setInputValue] = useState('');
 
-   let ea:any="suk@gmail.com";
+   const ea:string="suk@gmail.com";
 
     const handleInputChange = (e: { target: { value: SetStateAction<string>; }; }) => {
       setInputValue(e.target.value); 
@@ -21,7 +21,7 @@ const MyForm = () => {
     };
 
 
-    let pa:any=2121;
+    const pa:string ="2121";
     const [inpValue, setInpValue] = useState('');
   
     const handleInpChange = (e: { target: { value: SetStateAction<string>; }; }) => {
@@ -36,7 +36,7 @@ const MyForm = () => {
 
     const [inputValueus, setInputValueus] = useState('');
 
-    let us:any="sajeel";
+    const us:string="sajeel";
     
      const handleInputChangeus = (e: { target: { value: SetStateAction<string>; }; }) => {
       setInputValueus(e.target.value); 
