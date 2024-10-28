@@ -1,4 +1,3 @@
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Link from 'next/link'
 import { FaFacebook,FaInstagram ,FaLinkedin,FaGithub} from "react-icons/fa6"
 

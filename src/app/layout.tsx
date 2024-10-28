@@ -1,7 +1,5 @@
 import type { Metadata } from "next";
-// import localFont from "next/font/local";
 import "./globals.css";
-// import { title } from "process";
 
 export const metadata: Metadata={
   title:"SUK Electronic",

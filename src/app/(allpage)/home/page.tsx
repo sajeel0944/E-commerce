@@ -12,7 +12,6 @@ const Home=()=>{
                 </div>
 
                 <div className="div-2  border-2 border-black  text-8xl [@media(max-width:450px)]:text-5xl">
-                    {/* <img className="  h-full w-[41.9rem]" src="/picture/bgim1.jpg" alt="" /> */}
                     <Image src={"/picture/bgim1.jpg"} alt={""} width={400} height={400} className="  h-full w-[41.9rem]"></Image>
                 </div>
             </div>
@@ -23,6 +22,3 @@ const Home=()=>{
 }
 
 export default Home
-
-// <h1>bushar</h1>
-//         <Addition></Addition>g

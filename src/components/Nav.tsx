@@ -4,7 +4,6 @@ import React, { useState } from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faMagnifyingGlass, faPhone, faCartShopping, faBars, faUser} from '@fortawesome/free-solid-svg-icons'
 
-// faEnvelope ,
 
 const Nave=()=>{
     const [showMenu, setShowMenu] = useState<boolean>(false);
@@ -32,7 +31,7 @@ const Nave=()=>{
              </div>
 
             <div className="div-1-4 w-20 [@media(max-width:450px)]:w-7 ">
-               <a href="products">
+               <a href="products-1">
                 <i className=" text-blue-700 cursor-pointer "> < FontAwesomeIcon icon={faCartShopping} className="w-12 text-4xl [@media(max-width:450px)]:text-lg [@media(max-width:450px)]:w-7"/> </i>
                </a>
             </div>

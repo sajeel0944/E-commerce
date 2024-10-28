@@ -36,13 +36,7 @@ const Contact=()=>{
       const handleSubmit1 = (e: React.FormEvent) => {
         e.preventDefault();
         
-    //    const formData = {
-    //       name,
-    //       address,
-    //       city,
-    //       email,
-    //       number,
-    //     };
+    
 };
 
 
