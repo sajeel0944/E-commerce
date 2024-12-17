@@ -1,6 +1,7 @@
 import Image from "next/image"
 
 const Home=()=>{
+    // ya ho
     return(
         <>
              <div className="div-main-1 -mb-20 flex [@media(max-width:450px)]:flex-none">
